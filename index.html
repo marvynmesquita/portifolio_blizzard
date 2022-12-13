@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Blizzard</title>
+
+    <link rel="stylesheet" href="css/main.min.css">
+
+    <!--Importado Slide-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+</head>
+<body>
+    <div class="menu-js" id="jogos" onmouseleave="hiddenMenu('jogos','btn-jogos')">
+        <div class="area-menu">
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="">
+                            <div class="icon">
+                                <img src="img/d2.png" alt="">
+                            </div>
+                            <span>Diablo® II ressurected</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="icon">
+                                <img src="img/ow2.png" alt="">
+                            </div>
+                            <span>Overwatch® 2</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="icon">
+                                <img src="img/wow.png" alt="">
+                            </div>
+                            <span>World of Warcraft®</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="icon">
+                                <img src="img/hs.png" alt="">
+                            </div>
+                            <span>Hearthstone®</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="icon">
+                                <img src="img/hos.png" alt="">
+                            </div>
+                            <span>Heroes of the storm®</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="icon">
+                                <img src="img/w3.png" alt="">
+                            </div>
+                            <span>Warcraft® III Reforged</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="icon">
+                                <img src="img/d4.png" alt="">
+                            </div>
+                            <span>Diablo® IV</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="icon">
+                                <img src="img/di.png" alt="">
+                            </div>
+                            <span>Diablo® Immortal</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="icon">
+                                <img src="img/d3.png" alt="">
+                            </div>
+                            <span>Diablo® III</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="icon">
+                                <img src="img/sc2.png" alt="">
+                            </div>
+                            <span>StarCraft® II</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="icon">
+                                <img src="img/sc.png" alt="">
+                            </div>
+                            <span>StarCraft® Remastered</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="icon">
+                                <img src="img/ab.png" alt="">
+                            </div>
+                            <span>Arcade da Blizzard®</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu-footer">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <div class="icon">
+                                <img src="img/all-games.svg" alt="">
+                            </div>
+                            <span>Ver todos jogos</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="icon">
+                                <img src="img/battle-net.svg" alt="">
+                            </div>
+                            <span>Aplicativo Battle.net</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="icon">
+                                <img src="img/down_icon.svg" alt="">
+                            </div>
+                            <span>Downloads</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="icon">
+                                <img src="img/icon-chat.svg" alt="">
+                            </div>
+                            <span>Fóruns dos jogos</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="menu-js" id="esportes" onmouseleave="hiddenMenu('esportes','btn-esportes')">
+        <div class="area-menu">
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="">
+                            <div class="icon">
+                                <img src="img/hs-masters.png" alt="">
+                            </div>
+                            <span>Hearthstone® masters</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="icon">
+                                <img src="img/wow-arena.png" alt="">
+                            </div>
+                            <span>Campeonato Mundial de Arena WoW®</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="icon">
+                                <img src="img/sc2-wcs.png" alt="">
+                            </div>
+                            <span>StarCraft® II WCS</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="icon">
+                                <img src="img/ow-cup.png" alt="">
+                            </div>
+                            <span>Copa Mundial de Overwatch®</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="icon">
+                                <img src="img/ow-league.png" alt="">
+                            </div>
+                            <span>Liga de Overwatch®</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu-footer">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <div class="icon"><img src="img/icon-torneio.svg" alt=""></div>
+                            <span>Torneios da comunidade</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="container">
+            <div class="left">
+                <a href="index.html" class="logo">
+                    <img src="img/blizzard_logo.svg" alt="Logo da Blizzard" title="Logo da Blizzard">
+                </a>
+                <nav>
+                    <ul>
+                        <li><a href="#" onclick="hiddenMenu('jogos','btn-jogos')" class="btn-menu" id="btn-jogos">Jogos <img src="img/arrow.svg" alt="" class="arrow"></a></li>
+                        <li><a href="#" onclick="hiddenMenu('esportes','btn-esportes')" class="btn-menu" id="btn-esportes">Esportes <img src="img/arrow.svg" alt="" class="arrow"></a></li>
+                        <li><a href="">Loja</a></li>
+                        <li><a href="">Noticias</a></li>
+                        <li><a href="">Suporte</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="right">
+                    <a href="" class="btn btn_nav">Criar conta</a>
+                    <a href="#" class="btn btn-active" onclick="login()"><img src="img/icon-user.svg" alt=""> Logar</a>
+            </div>
+        </div>
+    </header>
+    <section class="s-hero">
+        <div class="slide-thumb">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/d4.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/hs.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/wow.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/di.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/sc2.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="slide-principal">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide-01">
+                    <div class="container">
+                        <div class="left">
+                            <h2>Retorna à escuridão com o game Diablo IV</h2>
+                            <p>O retorno de Lilith traz uma era de escuridão e sofrimento</p>
+                            <button class="btn btn-active">
+                                <img src="img/icon-user.svg" alt="">
+                                Jogue agora
+                            </button>
+                        </div>
+                        <div class="right">
+                            <div class="logo">
+                                <img src="img/logo_d4.png" alt="">
+                            </div>
+                            <div class="video">
+                                <span>Assista o trailer</span>
+                                <button class="btn-video">
+                                    <div class="trailer">
+                                        <img src="img/thumb_d4.png" alt="" class="thumb default">
+                                        <img src="img/diablo-gif.gif" alt="" class="thumb animated">
+                                    </div>
+                                    <div class="play-thumb">
+                                        <img src="img/play_thumb.svg" alt="">
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide-02">
+                    <div class="container">
+                        <div class="left">
+                            <h2>Novo pacote de expansão de Hearthstone</h2>
+                            <p>A Horda e a Aliança se encontraram no Vale Alterac para lutar</p>
+                            <button class="btn btn-active">
+                                <img src="img/icon-user.svg" alt="">
+                                Reserve agora na pré-venda
+                            </button>
+                        </div>
+                        <div class="right">
+                            <div class="logo">
+                                <img src="img/logo_hs.png" alt="">
+                            </div>
+                            <div class="video">
+                                <span>Assista o trailer</span>
+                                <button class="btn-video">
+                                    <div class="trailer">
+                                        <img src="img/thumb_hs.png" alt="" class="thumb default">
+                                    <img src="img/hs-gif.gif" alt="" class="thumb animated">
+                                    </div>
+                                    <div class="play-thumb">
+                                        <img src="img/play_thumb.svg" alt="">
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide-03">
+                    <div class="container">
+                        <div class="left">
+                            <h2>Desbrave as Terras Sombrias em Shadowlands!</h2>
+                            <p>O que jaz além do mundo que você conhece?</p>
+                            <button class="btn btn-active">
+                                <img src="img/icon-user.svg" alt="">
+                                Reserve agora na pré-venda
+                            </button>
+                        </div>
+                        <div class="right">
+                            <div class="logo">
+                                <img src="img/logo_wow.png" alt="">
+                            </div>
+                            <div class="video">
+                                <span>Assista o trailer</span>
+                                <button class="btn-video">
+                                    <div class="trailer">
+                                        <img src="img/thumb_wow.png" alt="" class="thumb default">
+                                        <img src="img/wow-gif.gif" alt="" class="thumb animated">
+                                    </div>
+                                    <div class="play-thumb">
+                                        <img src="img/play_thumb.svg" alt="">
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="carousel-progress">
+                    <div class="progress"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s-games">
+        <div class="container">
+            <div class="top">
+                <div class="left">
+                    <span>GAMES</span>
+                    <h2>Jogos exclusivos</h2>
+                </div>
+                <div class="right">
+                    <ul class="nav-games">
+                        <li>
+                            <a href="#game-cards" class="btn-cards active" id="battle-net" onclick="gameCards('cards','battle-net')">
+                                <img src="img/battle-net.svg">
+                            </a>
+                        </li>
+                        <li>
+                            <a  href="#game-cards" class="btn-cards" id="switch" onclick="gameCards('cards','switch')">
+                                <img src="img/switch.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a  href="#game-cards" class="btn-cards" id="xbox" onclick="gameCards('cards','xbox')">
+                                <img src="img/xbox.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a  href="#game-cards" class="btn-cards" id="ps" onclick="gameCards('cards','ps')">
+                                <img src="img/ps.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="" class="btn-all-games">
+                        <img src="img/all-games.svg" alt="">
+                        Ver todos jogos
+                    </a>
+                </div>
+            </div>
+            <div class="games-cards games-cards-active" id="cards">
+                <div class="card">
+                    <div class="image">
+                        <img src="img/d2-card.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Diablo II: Resurrected</h3>
+                        <span>RPG de ação</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="img/ow-card.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Overwatch</h3>
+                        <span>Ação em equipe</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="img/ow2-card.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Overwatch 2</h3>
+                        <span>Ação em equipe</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="img/wow-classic-card.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>World of Warcraft Classic</h3>
+                        <span>RPG multijogador em massa</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="img/hs-card.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Hearthstone</h3>
+                        <span>Jogo de cards estratégicos</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="img/hos-card.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Heroes of storm</h3>
+                        <span>RPG de ação</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="img/d4-card.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Diablo IV</h3>
+                        <span>RPG de ação</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="img/w3-card.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Warcraft III Reforged</h3>
+                        <span>RPG de ação</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="img/d3-card.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Diablo III</h3>
+                        <span>RPG de ação</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="img/sc2-card.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>StarCraft II</h3>
+                        <span>RPG de ação</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="img/sc-card.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>StarCraft Remastered</h3>
+                        <span>RPG de ação</span>
+                    </div>
+                </div>
+                <div class="card-all-games">
+                    <div class="image">
+                        <img src="img/blizzard_logo.svg" alt="">
+                    </div>
+                    <div class="btn-all-games">
+                        <img src="img/all-games-white.svg" alt="">
+                        <span>Ver todos jogos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s-download">
+        <div class="container">
+            <div class="left">
+                <img src="img/battle-net-logo.svg" alt="" class="logo">
+                <h2>Baixe agora o battle.net</h2>
+                <ul>
+                    <li>
+                        <img src="img/lib.svg" alt="">
+                        <span>Seus jogos em um só lugar</span>
+                    </li>
+                    <li>
+                        <img src="img/dots.png" alt="">
+                        <span>Conecte-se aos seus amigos</span>
+                    </li>
+                    <li>
+                        <img src="img/buy.png" alt="">
+                        <span>Compre jogos e itens digitais</span>
+                    </li>
+                </ul>
+                <a href="" class="btn btn-active">
+                    <img src="img/apple_icon.png" alt="">
+                    Baixar para o MacOS
+                </a>
+                <div class="mobile">
+                    <img src="img/device_icon.svg" alt="">
+                    <span>Também disponível como <a href="">aplicativo móvel</a></span>
+                </div>
+            </div>
+            <div class="right">
+                <img src="img/battle-net-window-big.png" alt="" class="big">
+                <img src="img/battle-net-window-small.png" alt="" class="small">
+            </div>
+        </div>
+    </section>
+    <section class="modal" id="login">
+        <div class="overlay"></div>
+        <div class="box-login">
+            <button class="close" onclick="login()">
+                <img src="img/close.svg" alt="">
+            </button>
+            <img src="img/battle-net-logo.svg" class="logo">
+            <form action>
+                <div class="form-group">
+                    <input type="text" placeholder="E-mail ou telefone">
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="Senha">
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-active"> Conectar-se</button>
+                </div>
+            </form>
+            <div class="others-connect">
+                <p>ou conecte-se com</p>
+                <ul>
+                    <li>
+                        <button>
+                            <img src="img/google.svg" alt="">
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <img src="img/apple-black.svg" alt="">
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <img src="img/facebook.svg" alt="">
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <div class="message-user">
+                <p>
+                    <a href>Crie uma conta</a>
+                     Battle.net de graça
+                </p>
+                <a href>Não consegue logar?</a>
+            </div>
+        </div>
+    </section>
+    
+    <!--Importando slide-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
