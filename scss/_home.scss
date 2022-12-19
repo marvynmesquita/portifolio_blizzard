@@ -24,9 +24,24 @@
                 opacity: 1.0;
                 filter: grayscale(0%);
             }
+            @media (min-width: 768px) {
+                flex-direction: row;
+                align-items: flex-start;
+                padding: 0;
+                gap: 2rem;
+            }
         }
         @media (max-width: 1440px) {
             margin-left: 6.3rem;
+        }
+        @media (max-width: 768px) {
+            width: 32rem;
+            height: 4.8rem;
+            left: 5.8rem;
+            top: 58.3rem;
+        }
+        @media (max-width: 76.8rem) {
+            margin-left: 0;
         }
     }
     .slide-principal {
@@ -62,6 +77,14 @@
                             padding: 0px 3.8rem;
                             line-height: 5.2rem;
                             top: 3.2rem;
+                        }
+                        @media (max-width: 768px) {
+                            margin-top: 19rem;
+                            margin-left: 5.8rem;
+                            height: 25.6rem;
+                            padding: 0rem;
+                            gap: 1.6rem;
+                            position: absolute;
                         }
                     }
                     .right {
@@ -147,6 +170,12 @@
                                         }
                                     }
                             }
+                        }
+                        @media (max-width: 768px) {
+                            position: relative;
+                            margin-left: 45.7rem;
+                            margin-top: 12.8rem;
+                            z-index: 0;
                         }
                     }
                 }
